@@ -1,0 +1,8 @@
+[Unit]
+Description=Update GNU Units currencies
+After=network-online.target
+Requires=network-online.target
+
+[Service]
+StateDirectory=units
+ExecStart=/usr/bin/units_cur

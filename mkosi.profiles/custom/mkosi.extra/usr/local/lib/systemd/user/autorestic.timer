@@ -1,0 +1,9 @@
+[Unit]
+Description=Autorestic Backups Timer
+
+[Timer]
+OnCalendar=daily
+Persistent=yes
+
+[Install]
+WantedBy=timers.target

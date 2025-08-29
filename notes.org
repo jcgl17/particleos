@@ -1,0 +1,1 @@
+presets are only applied at firstboot, right? so how are packages installed *after* firstboot supposed to be enabled?

@@ -1,0 +1,3 @@
+enable opensnitch.service
+enable fprintd.service
+enable units_cur.timer

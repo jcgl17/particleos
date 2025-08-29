@@ -1,0 +1,9 @@
+[Unit]
+Description=Update GNU Units currencies
+
+[Timer]
+OnCalendar=weekly
+Persistent=yes
+
+[Install]
+WantedBy=timers.target

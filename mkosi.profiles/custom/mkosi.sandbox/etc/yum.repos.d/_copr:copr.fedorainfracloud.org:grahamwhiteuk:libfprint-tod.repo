@@ -1,0 +1,10 @@
+[copr:copr.fedorainfracloud.org:grahamwhiteuk:libfprint-tod]
+name=Copr repo for libfprint-tod owned by grahamwhiteuk
+baseurl=https://download.copr.fedorainfracloud.org/results/grahamwhiteuk/libfprint-tod/fedora-$releasever-$basearch/
+type=rpm-md
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://download.copr.fedorainfracloud.org/results/grahamwhiteuk/libfprint-tod/pubkey.gpg
+repo_gpgcheck=0
+enabled=1
+enabled_metadata=1
