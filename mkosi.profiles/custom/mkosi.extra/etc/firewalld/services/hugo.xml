@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>Hugo</short>
+  <description>Used for running Hugo's development server</description>
+  <port protocol="tcp" port="1313"/>
+</service>

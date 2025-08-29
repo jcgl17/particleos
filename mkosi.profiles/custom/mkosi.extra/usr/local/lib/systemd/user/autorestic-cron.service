@@ -1,0 +1,7 @@
+[Unit]
+Description=Autorestic Scheduled Backups
+
+[Service]
+ExecStart=/usr/bin/autorestic --ci cron
+ExecStartPost=/usr/bin/autorestic --ci forget --all
+Type=oneshot

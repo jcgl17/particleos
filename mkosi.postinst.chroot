@@ -5,6 +5,7 @@ set -e
 if command -v authselect >/dev/null; then
     authselect select local
     authselect enable-feature with-systemd-homed
+    authselect enable-feature with-fingerprint
 fi
 
 if [[ -d /etc/pam.d ]]; then

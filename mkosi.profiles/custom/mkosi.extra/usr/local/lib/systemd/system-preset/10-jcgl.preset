@@ -1,0 +1,4 @@
+enable opensnitch.service
+enable fprintd.service
+enable units_cur.timer
+enable systemd-boot-update.service
