@@ -18,6 +18,7 @@ enable systemd-homed-firstboot.service
 
 # Disable avahi in favor of resolved
 disable avahi.*
+disable avahi-daemon.*
 
 enable pcscd.service
 enable power-profiles-daemon.service
@@ -34,3 +35,6 @@ disable ssh.service
 enable sshd.socket
 enable ssh.socket
 enable sshd-keygen.service
+
+# Maybe man db
+enable man-db-cache-update.service
