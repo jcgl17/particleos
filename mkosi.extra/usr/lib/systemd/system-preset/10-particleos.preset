@@ -36,5 +36,12 @@ enable sshd.socket
 enable ssh.socket
 enable sshd-keygen.service
 
+enable firewalld.service
+
 # Maybe man db
 enable man-db-cache-update.service
+
+# Fedora 43 introduces a new authselect service in place of package scriptlets.
+# It fails and (I believe) shouldn't be needed
+# https://bugzilla.redhat.com/show_bug.cgi?id=2397255
+disable authselect-apply-changes.service
