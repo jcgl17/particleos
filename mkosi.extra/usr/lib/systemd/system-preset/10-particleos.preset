@@ -27,6 +27,7 @@ enable preset-global.service
 
 enable gdm.service
 enable sddm.service
+disable plasmalogin.service
 
 # Prefer socket activated SSH over daemon SSH
 disable sshd.service
